@@ -1,2 +1,6 @@
 server:
   port: 8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:ctsi@localhost:8761/eureka/
